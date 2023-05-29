@@ -1,0 +1,29 @@
+{
+  "name": "nodejs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --inspect app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/quangthanh72/NodeForStudy.git"
+  },
+  "keywords": [
+    "nodejs"
+  ],
+  "author": "quangth",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/quangthanh72/NodeForStudy/issues"
+  },
+  "homepage": "https://github.com/quangthanh72/NodeForStudy#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
